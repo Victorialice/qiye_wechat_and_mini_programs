@@ -15,10 +15,12 @@ gem 'kaminari', github: 'amatsuda/kaminari'
 gem 'turbolinks', '~> 5.x'
 gem 'js_cookie_rails'
 
+gem 'therubyracer', platforms: :ruby
 gem 'rails-i18n', '~> 5.0.0'
 
 gem 'jbuilder'
 gem 'pg'
+gem 'wechat'
 
 gem 'redcarpet'
 gem 'rouge'

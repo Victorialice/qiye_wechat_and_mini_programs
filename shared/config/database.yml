@@ -1,0 +1,25 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  username: pguser
+  password: pguser_password
+  encoding: unicode
+  database: AliceBlog_production
+  pool:     5
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: AliceBlog_test
+  pool:     5
+
+production:
+  adapter:  postgresql
+  host:     localhost
+  username: pguser
+  password: pguser_password
+  encoding: unicode
+  database: AliceBlog_production
+  pool:     5
